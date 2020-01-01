@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"start": "vue-cli-service serve",
+		"start": "serve ./dist/ -s",
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
 		"lint": "vue-cli-service lint",
@@ -13,6 +13,7 @@
 		"axios": "^0.19.0",
 		"bootstrap-vue": "^2.1.0",
 		"core-js": "^3.4.4",
+		"serve": "^11.3.0",
 		"vue": "^2.6.10",
 		"vue-i18n": "^8.0.0",
 		"vue-ionicons": "^3.0.4",
