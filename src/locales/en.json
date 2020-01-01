@@ -4,19 +4,31 @@
 		"postAndAd": "PostAndAd",
 		"contact": "Contact",
 		"about": "About",
-		"signUp": "Sign Up"
+		"signUp": "Sign Up",
+		"login": "Login"
 	},
 	"btn": {
 		"signUp": "Register Now",
 		"go": "Go to Link",
-		"contact": "Contact Now"
+		"contact": "Contact Now",
+		"login": "Log In",
+		"register": "Register"
+	},
+	"alert": {
+		"toLogin": "Log in to Add advertisement property. <br>If you don't have an account, you can."
 	},
 	"address": {
 		"no": "Number blah blah blah",
 		"road": "Road is Empty",
 		"township": "Township is Blah Blah Blah"
 	},
+	"form": {
+		"email": "Email Address",
+		"password": "Password"
+	},
+
 	"message": "Message",
 	"ad": "The reasons for the ad are: It's not right or wrong I don't know. Why?",
-	"lorem": "Paragraphs module allows content creators to choose which kinds of paragraphs they want to place on the page, and the order in which they want to place them. They can do all of this through the familiar node edit screen. There is no need to resort to code, the dreaded block placement config screen or Panelizer overrides. They just use node edit form where all content is available to them in one place.Morpht has taken the Paragr"
+	"lorem": "Paragraphs module allows content creators to choose which kinds of paragraphs they want to place on the page, and the order in which they want to place them. They can do all of this through the familiar node edit screen. There is no need to resort to code, the dreaded block placement config screen or Panelizer overrides. They just use node edit form where all content is available to them in one place.Morpht has taken the Paragr",
+	"explorePlaces": "Login to Explore Amazing Places"
 }

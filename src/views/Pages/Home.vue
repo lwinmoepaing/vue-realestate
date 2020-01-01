@@ -4,7 +4,7 @@
 				<b-col lg="4">
 						<b-card
 							:title="`${$t('navbar.home')}`"
-							img-src="https://picsum.photos/600/300/?image=25"
+							img-src="https://i.picsum.photos/id/25/1000/600.jpg"
 							img-alt="Image"
 							img-top
 							tag="article"

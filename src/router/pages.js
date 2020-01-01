@@ -1,6 +1,7 @@
 import Home from "../views/Pages/Home.vue";
 import About from "../views/Pages/About.vue";
 import SignUp from "../views/Pages/SignUp.vue";
+import Login from "../views/Pages/Login.vue";
 import PostAndAd from "../views/Pages/PostAndAd.vue";
 import Contact from "../views/Pages/Contact.vue";
 
@@ -14,6 +15,11 @@ export default [
 		path: "about",
 		name: "about",
 		component: About
+	},
+	{
+		path: "login",
+		name: "login",
+		component: Login
 	},
 	{
 		path: "signup",

@@ -42,13 +42,18 @@
 					<b-nav-item :to="`/${$i18n.locale}/about`">
 						<MdInformationCircleIcon class="icon" />{{
 							$t("navbar.about")
-						}}</b-nav-item
-					>
+						}}
+					</b-nav-item>
+					<b-nav-item :to="`/${$i18n.locale}/login`">
+						<MdLogInIcon class="icon" />{{
+							$t("navbar.login")
+						}}
+					</b-nav-item>
 					<b-nav-item :to="`/${$i18n.locale}/signup`">
-						<MdPersonAddIcon class="icon" />{{
-							$t("navbar.signUp")
-						}}</b-nav-item
-					>
+							<MdPersonAddIcon class="icon" />{{
+								$t("navbar.signUp")
+							}}
+					</b-nav-item>
 				</b-navbar-nav>
 			</b-navbar-nav>
 		</b-collapse>
@@ -65,6 +70,7 @@ import IosCallIcon from "vue-ionicons/dist/ios-call.vue";
 import MdInformationCircleIcon from "vue-ionicons/dist/md-information-circle.vue";
 import IosAppsIcon from "vue-ionicons/dist/ios-apps.vue";
 import MdPersonAddIcon from "vue-ionicons/dist/md-person-add.vue";
+import MdLogInIcon from 'vue-ionicons/dist/md-log-in.vue'
 
 export default {
 	data() {
@@ -84,7 +90,8 @@ export default {
 		IosCallIcon,
 		IosAppsIcon,
 		MdInformationCircleIcon,
-		MdPersonAddIcon
+		MdPersonAddIcon,
+		MdLogInIcon
 	}
 };
 </script>
