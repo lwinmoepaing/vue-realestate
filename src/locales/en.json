@@ -1,0 +1,22 @@
+{
+	"navbar": {
+		"home": "Home",
+		"postAndAd": "PostAndAd",
+		"contact": "Contact",
+		"about": "About",
+		"signUp": "Sign Up"
+	},
+	"btn": {
+		"signUp": "Register Now",
+		"go": "Go to Link",
+		"contact": "Contact Now"
+	},
+	"address": {
+		"no": "Number blah blah blah",
+		"road": "Road is Empty",
+		"township": "Township is Blah Blah Blah"
+	},
+	"message": "Message",
+	"ad": "The reasons for the ad are: It's not right or wrong I don't know. Why?",
+	"lorem": "Paragraphs module allows content creators to choose which kinds of paragraphs they want to place on the page, and the order in which they want to place them. They can do all of this through the familiar node edit screen. There is no need to resort to code, the dreaded block placement config screen or Panelizer overrides. They just use node edit form where all content is available to them in one place.Morpht has taken the Paragr"
+}

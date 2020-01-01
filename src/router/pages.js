@@ -11,22 +11,22 @@ export default [
 		component: Home
 	},
 	{
-		path: "/about",
+		path: "about",
 		name: "about",
 		component: About
 	},
 	{
-		path: "/signup",
+		path: "signup",
 		name: "signup",
 		component: SignUp
 	},
 	{
-		path: "/contact",
+		path: "contact",
 		name: "contact",
 		component: Contact
 	},
 	{
-		path: "/post-ad",
+		path: "post-ad",
 		name: "post-ad",
 		component: PostAndAd
 	}
