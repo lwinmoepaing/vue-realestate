@@ -25,7 +25,7 @@
 					>
 						<b-form-input
 							id="input-2"
-							v-model="form.name"
+							v-model="form.password"
 							required
 							type="password"
 							:placeholder="$t('form.password')"
@@ -45,36 +45,36 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        form: {
-          email: '',
-          name: '',
-        },
-        show: true
-      }
-    },
-    methods: {
-      onSubmit(evt) {
-        evt.preventDefault()
-        alert(JSON.stringify(this.form))
-      },
-      onReset(evt) {
-        evt.preventDefault()
-        // Reset our form values
-        this.form.email = ''
-        this.form.name = ''
-        this.form.food = null
-        this.form.checked = []
-        // Trick to reset/clear native browser form validation state
-        this.show = false
-        this.$nextTick(() => {
-          this.show = true
-        })
-      }
-    }
-  }
+// import axios from 'axios';
+
+export default {
+	data() {
+		return {
+			form: {
+				email: 'lwin@gmail.com',
+				password: 'password',
+			},
+			show: true
+		}
+	},
+	methods: {
+		async onSubmit(evt) {
+			evt.preventDefault();
+			alert(JSON.stringify(this.form));
+
+		},
+		onReset(evt) {
+			evt.preventDefault()
+			this.form.email = ''
+			this.form.password = ''
+			// Trick to reset/clear native browser form validation state
+			this.show = false
+			this.$nextTick(() => {
+				this.show = true
+			})
+		}
+	}
+}
 </script>
 
 <style scoped>

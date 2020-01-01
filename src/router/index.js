@@ -1,7 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import pages from "./pages";
+import user from "./user";
 import i18n from '../i18n';
+
+import PageNotFound from '@/views/Pages/404.vue';
 
 Vue.use(VueRouter);
 
@@ -13,10 +16,11 @@ const routes = [
 	{
 		path: '/:lang',
 		component: {
-			render (c) { return c('router-view')}
+			render (c) { return c('router-view') }
 		},
-		children: [...pages]
-	}
+		children: [...pages, ...user]
+	},
+	{ path: "*", component: PageNotFound }
 ];
 
 const router = new VueRouter({

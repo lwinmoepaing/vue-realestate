@@ -3,6 +3,8 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import config from './config/config.json'
+import i18n from './i18n'
+import axios from 'axios'
 
 /**
  * Importing BootStrap
@@ -10,17 +12,17 @@ import config from './config/config.json'
 import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
-import i18n from './i18n'
 
 /**
  * Importing Ionic Icon
  */
 import 'vue-ionicons/ionicons.css'
 
-
 Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;
+
+axios.defaults.baseURL = config.ApiURL;
 
 router.beforeEach((to, from, next) => {
 	let lang = to.params.lang || config.locale;
